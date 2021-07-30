@@ -12,6 +12,5 @@
         <input type="text" name="message" id="message">
         <input type="submit" value="Send your message">
     </form>
-    <form action=""></form>
 </body>
 </html>

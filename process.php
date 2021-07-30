@@ -5,7 +5,7 @@
 
     $num_files = count($files) - 2;
 
-    $fileName = "msg-{$num_files}.txt"
+    $fileName = "msg-{$num_files}.txt";
 
     $file = fopen("./messages/{$fileName}", "x");
 
@@ -13,4 +13,4 @@
 
     fclose($file);
 
-    header("Location : index.php");
+    header("Location: index.php");
